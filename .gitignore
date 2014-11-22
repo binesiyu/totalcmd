@@ -1,0 +1,9 @@
+*.*
+!*.ini
+USER/HISTORY.INI
+!*.bar
+!*.br2
+PLUGINS/*
+TOOLS/*
+ADDONS/*
+!LANGUAGE/*.*
