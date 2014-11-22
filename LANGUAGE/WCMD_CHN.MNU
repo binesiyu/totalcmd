@@ -306,30 +306,6 @@ POPUP "系统(&Y)"
     MENUITEM "网上邻居(&N)\tAlt+R", 2125
 END_POPUP
 
-POPUP "网络(&N)"
-    MENUITEM "映射网络驱动器(&M)...", 512
-    MENUITEM "断开网络驱动器(&D)...", 513
-    MENUITEM SEPARATOR
-    MENUITEM "共享当前文件夹(&C)...", 514
-    MENUITEM "取消共享(&U)...", 515
-    MENUITEM SEPARATOR
-    MENUITEM "直接电缆连接(&R)...", 2300
-    MENUITEM "安装并口驱动 (NT)(&I)", 2301
-    MENUITEM "去除并口驱动 (NT)(&V)", 2302
-    MENUITEM SEPARATOR
-    MENUITEM "连接 FTP(&F)...\tCtrl+7", 550
-    MENUITEM "断开 FTP 连接(&S)\tShift+Ctrl+7 或 Shift+Ctrl+F", 552
-    MENUITEM "新建 FTP 连接(&N)\tCtrl+N", 551
-    MENUITEM SEPARATOR
-    MENUITEM "显示 FTP 中的隐藏文件(&H)", 553
-    MENUITEM "中断当前 FTP 命令(&A)", 554
-    MENUITEM "续传(&E)", 555
-    MENUITEM "选择传输模式(&L)\tShift+Ctrl+M", 556
-    MENUITEM SEPARATOR
-    MENUITEM "添加到下载列表(&T)...", 557
-    MENUITEM "下载列表中的文件(&O)...", 558
-END_POPUP
-
 POPUP "标签(&T)"
     MENUITEM "交换当前标签(&U)\tCtrl+U", 531
     MENUITEM "交换所有标签(&A)\tAlt+7 或 Shift+Ctrl+U", 535
@@ -356,25 +332,12 @@ POPUP "标签(&T)"
     MENUITEM "显示标签右键菜单(&C)\tCtrl+8", 3009
 END_POPUP
 
-STARTMENU
-
 HELP_BREAK
 
-POPUP "别名(&A)"
+POPUP "管理(&A)"
     MENUITEM "计算机管理\tCM", em_CM
-    MENUITEM "事件查看器\tEV", em_EV
-    MENUITEM "共享文件夹\tSF", em_SF
-    MENUITEM "本地用户和组\tLUG", em_LUG
-    MENUITEM "设备管理器\tDEV", em_DEV
     MENUITEM "磁盘管理\tDM", em_DM
     MENUITEM "服务\tSVR", em_SVR
-    MENUITEM SEPARATOR
-    MENUITEM "组策略\tGP", em_GP
-    MENUITEM "本地安全设置\tLSS", em_LSS
-    MENUITEM SEPARATOR
-    MENUITEM "证书\tCRT", em_CRT
-    MENUITEM "性能\tPFM", em_PFM
-    MENUITEM "用户帐户\tUA", em_UA
     MENUITEM SEPARATOR
     MENUITEM "静音开关\tMU", em_MuteVolume
     MENUITEM "关闭显示器\tMO", em_MonitorOFF
@@ -387,11 +350,9 @@ POPUP "别名(&A)"
     MENUITEM SEPARATOR
     MENUITEM "文本编辑器\tEME", em_EME
     MENUITEM "计算器\tCAL", em_CAL
-    MENUITEM SEPARATOR
-    MENUITEM "弹出光驱\tCDO", em_CDO
-    MENUITEM "关闭光驱\tCDC", em_CDC
-    MENUITEM "弹出5秒后自动关闭\tCDOC", em_CDOC
 END_POPUP
+
+STARTMENU
 
 POPUP "快捷键(&U)"
     POPUP "功能键\tFX"
@@ -694,7 +655,6 @@ POPUP "帮助(&H)"
     MENUITEM SEPARATOR
     MENUITEM "注册信息(&R)", 630
     MENUITEM "软件主页(&V)", 640
-    MENUITEM "精品技术论坛(&F)...", em_VisitForum
     MENUITEM SEPARATOR
     MENUITEM "关于(&A)...", 690
 END_POPUP

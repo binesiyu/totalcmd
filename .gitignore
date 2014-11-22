@@ -1,5 +1,6 @@
 *.*
 !*.ini
+Syn*
 USER/HISTORY.INI
 !*.bar
 !*.br2
