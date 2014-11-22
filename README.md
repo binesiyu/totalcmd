@@ -1,0 +1,4 @@
+totalcmd
+========
+
+my totoalcommand configure
